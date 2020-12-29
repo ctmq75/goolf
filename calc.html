@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaulf</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+</head>
+<header>
+    <h1>Handicap Calculator</h1>
+    <p>Minimum 2 rounds</p>
+</header>
+<body>
+    <form id='handy-form'>
+        <table id="handy-table">
+          <tr>
+            <th>Score (be honest!)</th>
+            <th>Course Rating</th>
+            <th>Slope</th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                placeholder="ex: 81"
+                id="score1"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 72.6"
+                id="rating1"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 136"
+                id="slope1"
+                type="number"
+              ></input>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                placeholder="ex: 81"
+                id="score2"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 72.6"
+                id="rating2"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 136"
+                id="slope2"
+                type="number"
+              ></input>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                placeholder="ex: 81"
+                id="score3"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 72.6"
+                id="rating3"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 136"
+                id="slope3"
+                type="number"
+              ></input>
+            </td>
+          </tr>
+          <!--
+          <tr>
+            <td>
+              <input
+                placeholder="ex: 81"
+                id="score4"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 72.6"
+                id="rating4"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 136"
+                id="slope4"
+                type="number"
+              ></input>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                placeholder="ex: 81"
+                id="score5"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 72.6"
+                id="rating5"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 136"
+                id="slope5"
+                type="number"
+              ></input>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                placeholder="ex: 81"
+                id="score6"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 72.6"
+                id="rating6"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 136"
+                id="slope6"
+                type="number"
+              ></input>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                placeholder="ex: 81"
+                id="score8"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 72.6"
+                id="rating7"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 136"
+                id="slope7"
+                type="number"
+              ></input>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                placeholder="ex: 81"
+                id="score9"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 72.6"
+                id="rating8"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 136"
+                id="slope8"
+                type="number"
+              ></input>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                placeholder="ex: 81"
+                id="score10"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 72.6"
+                id="rating9"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 136"
+                id="slope9"
+                type="number"
+              ></input>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="ex: 81" id="score" type="number"></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 72.6"
+                id="rating10"
+                type="number"
+              ></input>
+            </td>
+            <td>
+              <input
+                placeholder="ex: 136"
+                id="slope10"
+                type="number"
+              ></input>
+            </td>
+          </tr>
+          -->
+        </table>
+        <button type="submit" onSubmit={this.handleSubmit}>
+          Calculate My Handicap
+        </button>
+      </form>
+    
+</body>
+</html>
